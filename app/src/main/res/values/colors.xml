@@ -9,4 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="dark_grey">#1D1E23</color>
     <color name="brand_orange"> #FF8433</color>
+
+    <color name="active_tab_color"> #FFFFFFFF</color>
+    <color name="inactive_tab_color"> #FF000000</color>
 </resources>
