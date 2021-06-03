@@ -11,5 +11,5 @@
     <color name="brand_orange"> #FF8433</color>
 
     <color name="active_tab_color"> #FFFFFFFF</color>
-    <color name="inactive_tab_color"> #FF000000</color>
+    <color name="inactive_tab_color">#777777</color>
 </resources>
