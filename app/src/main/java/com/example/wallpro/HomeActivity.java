@@ -6,6 +6,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
 import java.util.ArrayList;
 
@@ -32,7 +33,7 @@ public class HomeActivity extends AppCompatActivity {
         arrayList.add(new Image(R.drawable.image19));
         arrayList.add(new Image(R.drawable.image20));
 
-        recyclerView.setLayoutManager(new GridLayoutManager(getApplicationContext(),2,RecyclerView.VERTICAL,false));
+        recyclerView.setLayoutManager(new StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL));
         adapter = new ImageAdapter(getApplicationContext(),arrayList);
         recyclerView.setAdapter(adapter);
 
